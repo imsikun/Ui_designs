@@ -1,0 +1,29 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  background-color: #f1f9fb;
+}
+
+div {
+  max-width: 90vw;
+  height: 20vh;
+  background: #fff;
+  border: 1px solid #fff;
+  margin: 6rem auto;
+  border-radius: 15px;
+}
+
+nav {
+  width: inherit;
+  height: 18vh;
+  margin: 10px;
+  background: #f1f9fb;
+  border-radius: 15px;
+}
