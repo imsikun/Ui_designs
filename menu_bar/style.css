@@ -46,6 +46,21 @@ nav ul{
 nav ul li{
   margin: 10px;
   list-style-type: none;
+  position: relative;
+}
+nav ul li:hover .top-container{
+  display: block;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rebeccapurple;
+  min-width: 400px;
+  padding: 30px;
+  border-radius: 10px;
+  position: absolute;
+  background-color: #fff;
+  color: #000;
+  box-shadow: 3px 3px 10px rgba(0,0,0,0.1);
 }
 nav ul li a{
   text-decoration: none;
@@ -74,4 +89,23 @@ nav ul li a{
   background-color: #151533;
   padding: 12px 25px;
   color: #fff;
+}
+.top-container{
+  display: none;
+}
+.nested{
+  display: flex;
+  flex-direction: column;
+  text-transform: capitalize;
+  font-size: 14px;
+  margin-left: 0;
+  margin-top: 10px;
+  padding-left: 0;
+  align-items: flex-start;
+}
+.control{
+  padding: 0;
+  margin: 0;
+  width: inherit;
+  font-weight: bold;
 }
