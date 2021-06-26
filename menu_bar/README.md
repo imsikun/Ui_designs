@@ -1,14 +1,15 @@
-Project name
+## Project Name
 
-Menu Bar.
+# Nested Menu Bar / Nested Nav Bar
 
-Project Description
+## Project Descritpion
 
-I found this Design file from
+In this project I am designing the Menu Bar from the source of the design. Trying to make it as a exact copy of the design. Here one of the list item is having a nested menu bar. Which on hover of the user will visible to them.
 
-[Ui_design Daily](https://www.uidesigndaily.com/posts/figma-menu-navigation-day-1371) website.
+## Things to learn
 
-Like this type of Project ?
+From this project you can learn about the use of CSS **_Position_** use of **_Flexbox_**.
 
-Please visit my Portfolio
-[Subhakant](https://subhakant.netlify.com)
+## Source of Design
+
+You can visit [Ui Design Daily](https://www.uidesigndaily.com/posts/figma-menu-navigation-day-1371) website to see the design it self.
