@@ -61,6 +61,8 @@ nav ul li:hover .top-container{
   background-color: #fff;
   color: #000;
   box-shadow: 3px 3px 10px rgba(0,0,0,0.1);
+  transition: all .4s ease;
+  -webkit-transition: all .4s ease;
 }
 nav ul li a{
   text-decoration: none;
