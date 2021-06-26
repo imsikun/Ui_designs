@@ -8,6 +8,6 @@
 
 ## Resources for this designs
 
-All the resources used in this design can be easily found in this [Repository](https://github.com/bradtraversy/design-resources-for-developers)
+All the resources used in this design can be easily found in this [Repository](https://github.com/bradtraversy/design-resources-for-developers) 😊
 
 ## Designs to build
