@@ -1,0 +1,72 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,
+html {
+  background-color: #0d0d14;
+  height: 100%;
+}
+
+.outer-border {
+  width: 40%;
+  height: 600px;
+  margin: auto;
+  margin-top: 50px;
+  background-color: #444c5c;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+/* form */
+.form {
+  width: 90%;
+  margin: auto;
+  margin-top: 4rem;
+}
+.flexi {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.flexi .hello {
+  margin-left: 5rem;
+}
+
+.input-icons i {
+  position: absolute;
+}
+
+.input-icons {
+  width: 50%;
+  margin-bottom: 10px;
+}
+
+.icon {
+  padding: 10px;
+  color: green;
+  /* min-width: 50px; */
+  text-align: center;
+}
+
+.input-field {
+  /* width: 100%; */
+  padding: 10px;
+  padding-left: 30px;
+  /* text-align: center; */
+}
+
+.terms {
+  margin-top: 2rem;
+}
+.terms input {
+  margin-right: 3px;
+}
+.btn {
+  margin-top: 4rem;
+}
+/* form */
