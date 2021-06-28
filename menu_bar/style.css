@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap');
 *,
 *::before,
 *::after {
@@ -9,21 +10,106 @@
 body,
 html {
   background-color: #f1f9fb;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
 }
 
-div {
+
+
+.main {
   max-width: 90vw;
   height: 20vh;
   background: #fff;
   border: 1px solid #fff;
   margin: 6rem auto;
   border-radius: 15px;
+  padding: 10px;
 }
 
 nav {
   width: inherit;
   height: 18vh;
-  margin: 10px;
-  background: #f1f9fb;
+  background: #F1F9FB;
   border-radius: 15px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 6px;
+}
+nav ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 40px;
+  margin-right: auto;
+}
+nav ul li{
+  margin: 10px;
+  list-style-type: none;
+  position: relative;
+}
+nav ul li:hover .top-container{
+  display: block;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rebeccapurple;
+  min-width: 400px;
+  padding: 30px;
+  border-radius: 10px;
+  position: absolute;
+  background-color: #fff;
+  color: #000;
+  box-shadow: 3px 3px 10px rgba(0,0,0,0.1);
+  transition: all .4s ease;
+  -webkit-transition: all .4s ease;
+}
+nav ul li a{
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 18px;
+  color: #000;
+  background-color: transparent;
+  overflow: hidden;
+}
+
+.utilities{
+  margin-right: 20px;
+}
+.btn{
+  margin: 20px;
+  font-size: 16px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.btn-login{
+  border: none;
+  outline: none;
+}
+.btn-signup{
+  border-radius: 5px;
+  background-color: #151533;
+  padding: 12px 25px;
+  color: #fff;
+}
+.top-container{
+  display: none;
+}
+.nested{
+  display: flex;
+  flex-direction: column;
+  text-transform: capitalize;
+  margin-left: 0;
+  margin-top: 10px;
+  padding-left: 0;
+  align-items: flex-start;
+}
+.nested li a{
+  font-size: 14px;
+}
+.control{
+  padding: 0;
+  margin: 0;
+  width: inherit;
+  font-weight: bold;
 }
