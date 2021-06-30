@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&display=swap');
 *,
 *::before,
 *::after {
@@ -9,11 +10,12 @@ body,
 html {
   background-color: #000;
   height: 100%;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .outer-border {
   width: 40%;
-  height: 600px;
+  height: 500px;
   margin: auto;
   margin-top: 50px;
   background-color: #0d0d14;
@@ -22,18 +24,18 @@ html {
 }
 
 /* heading */
-.heading{
+.heading {
   width: 90%;
   margin: auto;
   margin-top: 3rem;
-  color: #7C84A4;
+  color: #7c84a4;
 }
-.heading-text{
-  font-size: 1.7rem;
+.heading-text {
+  font-size: 1.3rem;
 }
-.heading p{
-  font-size: 1rem;
-  margin-top: 8px;
+.heading p {
+  font-size: 0.8rem;
+  margin-top: 10px;
   width: 80%;
 }
 /* heading */
@@ -65,56 +67,67 @@ html {
 
 .icon {
   padding: 10px;
-  color: #BC3756;
+  color: #bc3756;
   text-align: center;
 }
 
 .input-field {
   /* width: 100%; */
-  padding: 12px;
+  padding: 10px;
   padding-left: 30px;
   background-color: #15151c;
   border: none;
   outline: none;
   border-radius: 8px;
-  color: #444C5C;
+  color: #444c5c;
   /* text-align: center; */
 }
-::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: #444C5C;
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #444c5c;
   opacity: 1; /* Firefox */
 }
 
-:-ms-input-placeholder { /* Internet Explorer 10-11 */
-  color: #444C5C;
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #444c5c;
 }
 
-::-ms-input-placeholder { /* Microsoft Edge */
-  color: #444C5C;
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #444c5c;
 }
-.online-webinar{
-  color: #7C84A4;
+.online-webinar {
+  color: #7c84a4;
+  font-size: 14px;
+  margin-left: 5px;
+  font-weight: 300;
 }
-.online-webinar input{
-  border: 1px solid red;
-}
-
 
 .terms {
   margin-top: 1rem;
 }
-.terms input {
+.terms label {
+  color: #7c84a4;
   margin-right: 3px;
+  font-size: 13px;
+}
+.terms label span a {
+  color: #bc3756;
+  text-decoration: none;
 }
 .btn .continue {
-  margin-top: 2rem;
-  background-color: #BC3756;
-  padding: 10px 20px;
+  margin-top: 2.2rem;
+  background-color: #bc3756;
+  padding: 15px 35px;
+  text-align: center;
   color: #fff;
   border: none;
   outline: none;
-  border-radius: 8px;
+  border-radius: 5px;
   font-size: 1rem;
   text-transform: capitalize;
+  font-weight: 200;
 }
+
 /* form */
